@@ -24,3 +24,16 @@ docker exec -it database psql -h localhost -U postgres -p 5432 -c "CREATE DATABA
 *  [Table inheritance](https://github.com/MarcGinger/PostgreSQL-playground/tree/main/table-inheritance) 
 
 *  [Table partitioning](https://github.com/MarcGinger/PostgreSQL-playground/tree/main/table-partitioning) 
+
+
+
+## Cleanup
+## Tear down docker container
+
+```
+docker stop database
+
+docker rm -f database
+
+docker image rm postgres
+```

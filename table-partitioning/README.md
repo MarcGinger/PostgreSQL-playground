@@ -182,15 +182,3 @@ docker exec -it database psql -h localhost -U postgres -p 5432 -d main_database 
 ----------------+------------------+------------+----------+--------
               3 | 2023-11-10       |        103 |        8 | 150.00
 ```
-
-
-## Cleanup
-## Tear down docker container
-
-```
-docker stop database
-
-docker rm -f database
-
-docker image rm postgres
-```
