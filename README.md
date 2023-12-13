@@ -21,6 +21,6 @@ create a database
 docker exec -it database psql -h localhost -U postgres -p 5432 -c "CREATE DATABASE main_database"
 ```
 
-*  [Table inheritance](https://docs.docker.com/engine/install/) 
+*  [Table inheritance](https://github.com/MarcGinger/PostgreSQL-playground/tree/main/table-inheritance) 
 
-*  [Table partitioning](https://docs.docker.com/engine/install/) 
+*  [Table partitioning](https://github.com/MarcGinger/PostgreSQL-playground/tree/main/table-partitioning) 
